@@ -1,13 +1,13 @@
 package com.exemplo;
 
 class Dollar {
-    int amount = 10;
+    int amount;
     
     Dollar(int amount) {
-        // construtor vazio por enquanto
+        this.amount = amount;
     }
     
     void times(int multiplier) {
-        // método vazio por enquanto
+        amount = amount * multiplier;
     }
 }
